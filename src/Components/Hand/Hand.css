@@ -1,0 +1,7 @@
+.hand {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,1874 @@
+.domino-col {
+	float: left;
+	font-size: 7px;
+	width: 6em;
+	height: 12em;
+	margin: 0.5em;
+	position: relative;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items: center;
+}
+
+.domino-row {
+	float: left;
+	font-size: 7px;
+	width: 6em;
+	height: 12em;
+	margin: 3em;
+	position: relative;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.domino-row-flipped {
+	float: left;
+	font-size: 7px;
+	height: 6em;
+	width: 12em;
+	margin: 0.5em;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.domino-col-flipped {
+	float: left;
+	font-size: 7px;
+	width: 6em;
+	height: 12em;
+	margin: 0.5em;
+	position: relative;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items: center;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.domino-row, .domino-row span { 
+	background-color: navy
+}
+
+.domino-col, .domino-col span { 
+	background-color: navy
+}
+
+.domino-row-flipped, .domino-row span { 
+	background-color: navy
+}
+
+.domino-col-flipped, .domino-col span { 
+	background-color: navy
+}
+
+.domino-row .line {
+	width: 5.5em;
+	height: .2em;
+	position: absolute;
+	top: 5.7em;
+	left: .25em;
+	background-color: #fff;
+}
+
+.domino-col .line {
+	width: 5.5em;
+	height: .2em;
+	position: absolute;
+	top: 5.7em;
+	left: .25em;
+	background-color: #fff;
+}
+
+.domino-row-flipped .line {
+	height: 5.5em;
+	width: .2em;
+	position: absolute;
+	background-color: #fff;
+}
+
+.domino-col-flipped .line {
+	width: 5.5em;
+	height: .2em;
+	position: absolute;
+	top: 5.7em;
+	left: .25em;
+	background-color: #fff;
+}
+ 
+ .domino-row .TL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+
+ .domino-col .TL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+
+ .domino-row-flipped .TL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+
+ .domino-col-flipped .TL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+ .domino-col .TL456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+	}
+	.domino-row .TL456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	}
+.domino-col-flipped .TL456 {
+			width: 1.2em;
+			height: 1.2em;
+			position: absolute;
+			top: 0.8em;
+			left: 1.0em;
+			-webkit-border-radius: 4em;
+			-moz-border-radius: 4em;
+			border-radius: 4em;
+			background-color: #fff;
+	}
+.domino-row-flipped .TL456 {
+				width: 1.2em;
+				height: 1.2em;
+				position: absolute;
+				top: 0.8em;
+				left: 1.0em;
+				-webkit-border-radius: 4em;
+				-moz-border-radius: 4em;
+				border-radius: 4em;
+				background-color: #fff;
+	}
+.domino-row .TL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col .TL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .TL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .TL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+.domino-col .TC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .TC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .TC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .TC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+.domino-col .TR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .TR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .TR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .TR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+  .domino-col .TR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+
+ .domino-row .TR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+
+ .domino-col-flipped .TR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+
+ .domino-row-flipped .TR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+   .domino-col .TR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .TR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .TR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .TR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+  .domino-col .BL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .BL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .BL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .BL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	left: 8.3em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .BL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col .BL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .BL6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+  .domino-row .BL456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+	}
+	.domino-col .BL456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+		}
+	.domino-col-flipped .BL456 {
+			width: 1.2em;
+			height: 1.2em;
+			position: absolute;
+			top: 6.4em;
+			left: 1.0em;
+			-webkit-border-radius: 4em;
+			-moz-border-radius: 4em;
+			border-radius: 4em;
+			background-color: #fff;
+			}
+	.domino-row-flipped .BL456 {
+				width: 1.2em;
+				height: 1.2em;
+				position: absolute;
+				top: 4em;
+				right: 4.0em;
+				-webkit-border-radius: 4em;
+				-moz-border-radius: 4em;
+				border-radius: 4em;
+				background-color: #fff;
+				}
+   
+  .domino-col .BL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 9.6em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .BL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 9.6em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .BL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 9.6em;
+	left: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .BL23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4em;
+	right: 1.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+ .domino-col .BC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .BC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .BC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .BC135 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 2.4em;
+	right: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+ .domino-col .BR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .BR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .BR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 8.0em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .BR6 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 4.0em;
+	right: 2.5em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+  .domino-col .BR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 9.6em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row .BR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 9.6em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-col-flipped .BR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 9.6em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ .domino-row-flipped .BR456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	right: 1em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ }
+ 
+  .domino-col .BR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ } 
+ .domino-row .BR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ } 
+ .domino-col-flipped .BR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ } 
+ .domino-row-flipped .BR23456 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.8em;
+	right: 4.0em;
+	-webkit-border-radius: 4em;
+	-moz-border-radius: 4em;
+	border-radius: 4em;
+	background-color: #fff;
+ } 
+
+ .domino-row .TC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+ } 
+ .domino-col .TC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+ } 
+ .domino-row-flipped .TC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+ } 
+ .domino-col-flipped .TC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+ } 
+ .domino-row .BC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+
+ } 
+ .domino-col .BC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+
+ } 
+ .domino-row-flipped .BC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+
+ } 
+ .domino-col-flipped .BC0 {
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 6.4em;
+	left: 4.0em;
+
+ } 
+
+ .yellow-domino-col {
+	float: left;
+	font-size: 7px;
+	width: 6em;
+	height: 12em;
+	margin: 0.5em;
+	position: relative;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items: center;
+	background-color: yellow;
+}
+
+.yellow-domino-row {
+	float: left;
+	font-size: 7px;
+	width: 6em;
+	height: 12em;
+	margin: 0.5em;
+	position: relative;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	background-color: yellow;
+}
+
+.yellow-domino-row-flipped {
+	float: left;
+	font-size: 7px;
+	height: 6em;
+	width: 12em;
+	margin: 0.5em;
+	position: relative;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	background-color: yellow;
+}
+
+.yellow-domino-col-flipped {
+	float: left;
+	font-size: 7px;
+	width: 6em;
+	height: 12em;
+	margin: 0.5em;
+	position: relative;
+	-webkit-border-radius: .8em;
+	-moz-border-radius: .8em;
+	border-radius: .8em;
+	display: flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items: center;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	background-color: yellow;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1150px) {
+	.domino-col {
+		float: left;
+		font-size: 5px;
+		width: 6em;
+		height: 12em;
+		margin: 0.5em;
+		position: relative;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		flex-direction : column;
+		justify-content : center;
+		align-items: center;
+	}
+	
+	.domino-row {
+		float: left;
+		font-size: 5px;
+		width: 6em;
+		height: 12em;
+		margin: 3em;
+		position: relative;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+	}
+	
+	.domino-row-flipped {
+		float: left;
+		font-size: 5px;
+		height: 6em;
+		width: 12em;
+		margin: 0.5em;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		justify-content : center;
+		align-items: center;
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	
+	.domino-col-flipped {
+		float: left;
+		font-size: 5px;
+		width: 6em;
+		height: 12em;
+		margin: 0.5em;
+		position: relative;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		flex-direction : column;
+		justify-content: center;
+		align-items: center;
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	
+	.domino-row, .domino-row span { 
+		background-color: navy
+	}
+	
+	.domino-col, .domino-col span { 
+		background-color: navy
+	}
+	
+	.domino-row-flipped, .domino-row span { 
+		background-color: navy
+	}
+	
+	.domino-col-flipped, .domino-col span { 
+		background-color: navy
+	}
+	
+	.domino-row .line {
+		width: 5.5em;
+		height: .2em;
+		position: absolute;
+		top: 5.7em;
+		left: .25em;
+		background-color: #fff;
+	}
+	
+	.domino-col .line {
+		width: 5.5em;
+		height: .2em;
+		position: absolute;
+		top: 5.7em;
+		left: .25em;
+		background-color: #fff;
+	}
+	
+	.domino-row-flipped .line {
+		height: 5.5em;
+		width: .2em;
+		position: absolute;
+		background-color: #fff;
+	}
+	
+	.domino-col-flipped .line {
+		width: 5.5em;
+		height: .2em;
+		position: absolute;
+		top: 5.7em;
+		left: .25em;
+		background-color: #fff;
+	}
+	 
+	 .domino-row .TL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	
+	 .domino-col .TL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	
+	 .domino-row-flipped .TL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	
+	 .domino-col-flipped .TL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	 .domino-col .TL456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+		}
+		.domino-row .TL456 {
+			width: 1.2em;
+			height: 1.2em;
+			position: absolute;
+			top: 0.8em;
+			left: 1.0em;
+			-webkit-border-radius: 4em;
+			-moz-border-radius: 4em;
+			border-radius: 4em;
+			background-color: #fff;
+		}
+	.domino-col-flipped .TL456 {
+				width: 1.2em;
+				height: 1.2em;
+				position: absolute;
+				top: 0.8em;
+				left: 1.0em;
+				-webkit-border-radius: 4em;
+				-moz-border-radius: 4em;
+				border-radius: 4em;
+				background-color: #fff;
+		}
+	.domino-row-flipped .TL456 {
+					width: 1.2em;
+					height: 1.2em;
+					position: absolute;
+					top: 0.8em;
+					left: 1.0em;
+					-webkit-border-radius: 4em;
+					-moz-border-radius: 4em;
+					border-radius: 4em;
+					background-color: #fff;
+		}
+	.domino-row .TL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col .TL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .TL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .TL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	.domino-col .TC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .TC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .TC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .TC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	.domino-col .TR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .TR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .TR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .TR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	  .domino-col .TR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	
+	 .domino-row .TR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	
+	 .domino-col-flipped .TR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	
+	 .domino-row-flipped .TR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	   .domino-col .TR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .TR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .TR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .TR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	  .domino-col .BL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .BL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .BL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .BL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		left: 8.3em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .BL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col .BL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .BL6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	  .domino-row .BL456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+		}
+		.domino-col .BL456 {
+			width: 1.2em;
+			height: 1.2em;
+			position: absolute;
+			top: 6.4em;
+			left: 1.0em;
+			-webkit-border-radius: 4em;
+			-moz-border-radius: 4em;
+			border-radius: 4em;
+			background-color: #fff;
+			}
+		.domino-col-flipped .BL456 {
+				width: 1.2em;
+				height: 1.2em;
+				position: absolute;
+				top: 6.4em;
+				left: 1.0em;
+				-webkit-border-radius: 4em;
+				-moz-border-radius: 4em;
+				border-radius: 4em;
+				background-color: #fff;
+				}
+		.domino-row-flipped .BL456 {
+					width: 1.2em;
+					height: 1.2em;
+					position: absolute;
+					top: 4em;
+					right: 4.0em;
+					-webkit-border-radius: 4em;
+					-moz-border-radius: 4em;
+					border-radius: 4em;
+					background-color: #fff;
+					}
+	   
+	  .domino-col .BL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 9.6em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .BL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 9.6em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .BL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 9.6em;
+		left: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .BL23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4em;
+		right: 1.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	 .domino-col .BC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .BC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .BC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .BC135 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 2.4em;
+		right: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	 .domino-col .BR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .BR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .BR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 8.0em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .BR6 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 4.0em;
+		right: 2.5em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	  .domino-col .BR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 9.6em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row .BR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 9.6em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-col-flipped .BR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 9.6em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 .domino-row-flipped .BR456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		right: 1em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 }
+	 
+	  .domino-col .BR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 } 
+	 .domino-row .BR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 } 
+	 .domino-col-flipped .BR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 } 
+	 .domino-row-flipped .BR23456 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 0.8em;
+		right: 4.0em;
+		-webkit-border-radius: 4em;
+		-moz-border-radius: 4em;
+		border-radius: 4em;
+		background-color: #fff;
+	 } 
+	
+	 .domino-row .TC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	 } 
+	 .domino-col .TC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	 } 
+	 .domino-row-flipped .TC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	 } 
+	 .domino-col-flipped .TC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	 } 
+	 .domino-row .BC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	
+	 } 
+	 .domino-col .BC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	
+	 } 
+	 .domino-row-flipped .BC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	
+	 } 
+	 .domino-col-flipped .BC0 {
+		width: 1.2em;
+		height: 1.2em;
+		position: absolute;
+		top: 6.4em;
+		left: 4.0em;
+	
+	 } 
+	
+	 .yellow-domino-col {
+		float: left;
+		font-size: 5px;
+		width: 6em;
+		height: 12em;
+		margin: 0.5em;
+		position: relative;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		flex-direction : column;
+		justify-content : center;
+		align-items: center;
+		background-color: yellow;
+	}
+	
+	.yellow-domino-row {
+		float: left;
+		font-size: 5px;
+		width: 6em;
+		height: 12em;
+		margin: 0.5em;
+		position: relative;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		background-color: yellow;
+	}
+	
+	.yellow-domino-row-flipped {
+		float: left;
+		font-size: 5px;
+		height: 6em;
+		width: 12em;
+		margin: 0.5em;
+		position: relative;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		justify-content : center;
+		align-items: center;
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+		background-color: yellow;
+	}
+	
+	.yellow-domino-col-flipped {
+		float: left;
+		font-size: 5px;
+		width: 6em;
+		height: 12em;
+		margin: 0.5em;
+		position: relative;
+		-webkit-border-radius: .8em;
+		-moz-border-radius: .8em;
+		border-radius: .8em;
+		display: flex;
+		flex-direction : column;
+		justify-content: center;
+		align-items: center;
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+		background-color: yellow;
+	}
+
+}

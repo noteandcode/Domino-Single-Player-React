@@ -1,0 +1,22 @@
+.btn {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    background-color: rgb(161, 164, 168);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.btn:hover {
+  background-color:rgb(124, 119, 121);
+}
+
+.btn:active {
+  background-color: rgb(161, 164, 168);
+  transform: translateY(4px);
+}
